@@ -1,0 +1,49 @@
+.header {
+    background-color: rgba(28, 39, 60, 255);
+    font-size: 16px;
+    -unity-font-style: bold;
+    border-left-color: rgba(27, 27, 31, 255);
+    border-right-color: rgba(27, 27, 31, 255);
+    border-top-color: rgba(27, 27, 31, 255);
+    border-bottom-color: rgba(27, 27, 31, 255);
+}
+
+.toggle {
+}
+
+.toggle:checked {
+}
+
+.container {
+    border-left-color: rgba(32, 35, 41, 255);
+    border-right-color: rgba(32, 35, 41, 255);
+    border-top-color: rgba(32, 35, 41, 255);
+    border-bottom-color: rgba(32, 35, 41, 255);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 200px;
+}
+
+.parent {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+}
